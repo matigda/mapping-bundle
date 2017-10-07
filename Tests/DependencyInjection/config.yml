@@ -1,0 +1,21 @@
+deetrych_mapping:
+    write_models:
+        some_name:
+            fields:
+                circle:
+                    path: circlePath
+                rectangle:
+                    path: rectanglePath
+            type: array
+        other_name:
+            fields:
+                widow:
+                    path: black
+            type: json
+    read_models:
+        other_name:
+            fields:
+                triangle:
+                    path: trianglePath
+            type: array
+            model: Deetrych\MappingBundle\Tests\StubModel

@@ -1,0 +1,3 @@
+services:
+    deetrych.property_access_provider:
+        class: Deetrych\Mapping\PropertyAccessProvider
