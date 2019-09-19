@@ -57,6 +57,7 @@ class Configuration implements ConfigurationInterface
                                 ->prototype('array')
                                     ->children()
                                         ->scalarNode('path')->end()
+                                        ->scalarNode('isRequired')->defaultValue(false)->end()
                                     ->end()
                                 ->end()
                             ->end()
